@@ -1,0 +1,36 @@
+body{
+    margin: 0PX;
+}
+nav ul{
+    background-color: orange;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+
+}
+nav ul li a{
+                text-decoration: none;
+                color: black;
+    padding: 14px 25px;
+                display: inline-block;
+
+}
+nav ul li a:hover{
+    background-color: orangered;
+    color: white;
+}
+.dropdown-list{
+    background-color: lightsalmon;
+    color: white;
+    position: absolute;
+    display: none;
+}
+.dropdown-list a{
+    display: block;
+            }
+.dropdown:hover .dropdown-list{
+display: block;
+}
